@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg&ga=GA1.2.1908636980.1633737600);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.div1{
+    height: 130px;
+    background-color: rgb(212, 212, 214, 0.38);
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    
+}
+.div1>img{
+    width: 300px; height: 130px;
+}
+.div1>ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-left:300px;
+}
+.div1>ul>li{
+    user-select: none;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 25px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.div2{
+    padding-left: 320px;
+    padding-top: 180px;
+    height: 442px;
+}
+.div2>h1{
+   font-size: 80px; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: white;
+}
+.div2>h2{
+    font-size: 30px;
+    padding-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+.div2>button{
+    background-color: orangered;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    margin-left: 380px;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.container{
+    height: 200px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin-left: 170px;
+}
+.d1{
+    background-color: orangered;
+   cursor: pointer;
+    width: 200px;
+    margin-right: 10px;
+    height: 200px;
+    align-items: center;
+}
+.d2{
+    cursor: pointer;
+    width: 200px;
+    margin-right: 10px;
+    height: 200px;
+}
+.d3{
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+.d4{
+    cursor: pointer;
+    width: 200px;
+    margin-left: 10px;
+    height: 200px;
+}
+.dd1{
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.n1{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dd2{
+    margin-left: 75px;
+    margin-top: 70px;
+}
+.n2{
+    margin-left: 30px;
+    margin-top: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dd3{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.n3{
+    margin-left: 50px;
+    margin-top: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dd4{
+    margin-left: 65px;
+    margin-top: 65px;
+}
+.n4{
+    margin-left: 40px;
+    margin-top: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.red {
+    background-color:orangered;
+    transition-duration: 1s  ;
+ 
+}
+.blue{
+    background-color: rgb(212, 212, 214, 0);
+    transition-duration: 1s  ;
+}
+.brd{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+    transition-duration: 0.5s;
+}
+.nobrd{
+    color: white;
+    border-bottom: none;
+    transition-duration: 1s;
+}
+@media screen and ( max-width: 360px){
+    body{
+        background-repeat: repeat;
+        width: 700px;
+        height: 600px;
+    }
+    .div1{
+        height: 300px;
+        display: block;
+        width:1500px;
+        background-color:rgb(212, 212, 214, 0.38) ;
+    }
+    .div1>img{
+        width: 500px;
+        height: 220px;
+        margin-left: 500px;
+    }
+    .div1>ul{
+        margin-right: 300px;
+    }
+    .div1>ul>li{
+        font-size: 40px;
+        margin: 40px;
+        margin-top: 10px;
+    }
+    .div2{
+        width: 1000px;
+    }
+    .div2>h1{
+       font-size: 100px;
+       margin-right: 50px;
+    }
+    .div2>h2{
+        font-size: 40px;
+        margin-left: 200px;
+    }
+    .div2>button{
+        height: 100px;
+        width: 300px;
+        font-size: 40px;
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    .container{
+        margin-top: 200px;
+        width: 1300px;
+        display: block;
+        
+        margin-left: 110px;
+        height: 1200px;
+
+    }
+    .container>div{
+        width: 1300px;
+        height: 400px;
+    }
+    .d1{display: flex;}
+    .dd1>img{
+        height: 300px;
+        width: 300px;
+        margin-bottom: 70px;
+    }
+    .d1>p{
+        font-size: 100px;
+        margin-left: 150px;
+    }
+    .d2{display: flex;}
+    .d2>img{
+        height: 250px;
+        width: 250px;
+        margin-top: 80px;
+    }
+    .d2>p{
+        margin-top: 150px;
+        font-size: 90px;
+        margin-left: 130px;
+    }
+    .d3{display: flex;}
+    .d3>img{
+        height: 250px;
+        width: 250px;
+        margin-top: 80px;
+    }
+    .d3>p{
+        margin-top: 150px;
+        font-size: 90px;
+        margin-left: 200px;
+    }
+    .d4{display: flex;}
+    .d4>img{
+        height: 250px;
+        width: 250px;
+        margin-top: 80px;
+    }
+    .d4>p{
+        margin-top: 150px;
+        font-size: 90px;
+        margin-left: 200px;
+    }
+}
+@media screen and ( max-width: 768px){
+    body{
+        background-repeat: repeat;
+        width: 700px;
+        height: 600px;
+    }
+    .div1{
+        height: 300px;
+        display: block;
+        width:1500px;
+        background-color:rgb(212, 212, 214, 0.38) ;
+    }
+    .div1>img{
+        width: 500px;
+        height: 220px;
+        margin-left: 500px;
+    }
+    .div1>ul{
+        margin-right: 300px;
+    }
+    .div1>ul>li{
+        font-size: 40px;
+        margin: 40px;
+        margin-top: 10px;
+    }
+    .div2{
+        width: 1000px;
+    }
+    .div2>h1{
+       font-size: 100px;
+       margin-right: 50px;
+    }
+    .div2>h2{
+        font-size: 40px;
+        margin-left: 200px;
+    }
+    .div2>button{
+        height: 70px;
+        width: 250px;
+        font-size: 40px;
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    .container{
+        margin-top: 200px;
+        width: 1300px;
+        display: block;
+        
+        margin-left: 110px;
+        height: 1200px;
+
+    }
+    .container>div{
+        margin-left: 50px;
+        width: 1200px;
+        height: 400px;
+    }
+    .d1{display: flex;}
+    .dd1>img{
+        height: 200px;
+        width: 200px;
+        margin-bottom: 70px;
+        margin-left: 50px;
+    }
+    .d1>p{
+        font-size: 80px;
+        margin-left: 200px;
+    }
+    .d2{display: flex;}
+    .d2>img{
+        height: 200px;
+        width: 200px;
+        margin-top: 100px;
+        margin-left: 140px;
+    }
+    .d2>p{
+        margin-top: 150px;
+        font-size: 70px;
+        margin-left: 130px;
+    }
+    .d3{display: flex;}
+    .d3>img{
+        height: 250px;
+        width: 250px;
+        margin-top: 80px;
+    }
+    .d3>p{
+        margin-top: 150px;
+        font-size: 90px;
+        margin-left: 200px;
+    }
+    .d4{display: flex;}
+    .d4>img{
+        height: 250px;
+        width: 250px;
+        margin-top: 80px;
+    }
+    .d4>p{
+        margin-top: 150px;
+        font-size: 90px;
+        margin-left: 200px;
+    }
+}
+@media screen and ( max-width: 1024px)and (min-width:769px){
+    body{
+        background-repeat: repeat;
+    }
+    .div1{
+        padding-left: px;
+        width: 1400px;
+    }
+    .div2{
+        width: 900px;
+       padding-left: 250px;
+    }
+    .div2>button{
+        width: 400px;
+        height: 100px;
+        margin-top: 150px;
+        font-size: 50px;
+        margin-left: 220px;
+    }
+    .container{
+        margin-top: 100px;
+        margin-left: 80px;
+    }
+
+
+
+
+
+}
